@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suraj Singh - Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="background-pattern"></div>
+
+    <!-- Left sidebar - Media -->
+    <aside class="media-sidebar">
+      <div class="media-line"></div>
+      <div class="media-icons">
+        <a href="#" aria-label="Social links"><img src="/images/social-icons.svg" alt="GitHub, Discord, Dribbble"></a>
+      </div>
+    </aside>
+
+    <!-- Header -->
+    <header class="header">
+      <a href="#home" class="logo-link">
+        <svg class="logo-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="4" height="4" fill="#FFFFFF"/><rect x="4" width="4" height="4" fill="#FFFFFF"/><rect x="8" width="4" height="4" fill="#FFFFFF"/><rect x="12" width="4" height="4" fill="#FFFFFF"/>
+          <rect x="0" y="4" width="4" height="4" fill="#FFFFFF"/>
+          <rect x="0" y="8" width="4" height="4" fill="#FFFFFF"/><rect x="4" y="8" width="4" height="4" fill="#FFFFFF"/><rect x="8" y="8" width="4" height="4" fill="#FFFFFF"/>
+          <rect x="12" y="12" width="4" height="4" fill="#FFFFFF"/><rect x="0" y="12" width="4" height="4" fill="#FFFFFF"/>
+        </svg>
+        <span class="logo-text">Suraj Singh</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active"><span class="hash">#</span>home</a>
+        <a href="#projects" class="nav-link"><span class="hash">#</span>projects</a>
+        <a href="#about-me" class="nav-link"><span class="hash">#</span>about-me</a>
+        <a href="#contacts" class="nav-link"><span class="hash">#</span>contacts</a>
+        <div class="language-switcher">
+          <span>EN</span>
+          <svg width="10" height="5" viewBox="0 0 10 5"><path fill="#ABB2BF" d="M0 0l5 5 5-5z"/></svg>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Suraj Singh is a Software Engineer building secure, scalable web apps</h1>
+        <p class="hero-description">I design and build full-stack web applications with a strong focus on security, performance, and real-world problem solving. I enjoy working at the intersection of software engineering and cybersecurity.</p>
+        <a href="#contacts" class="btn btn-primary">Let's Connect!!</a>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="/images/hero-image.png" alt="Suraj Singh" class="hero-image">
+          <div class="hero-logo-outline">
+            <svg width="155" height="155" viewBox="0 0 155 155" fill="none" stroke="#C778DD" stroke-width="1" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="39.25" width="76.5" height="76.5"/>
+              <rect x="78.25" y="0.5" width="76.5" height="76.5"/>
+            </svg>
+          </div>
+          <div class="hero-dots">
+            <div class="dots-grid">
+              <span></span><span></span><span></span>
+              <span></span><span></span><span></span>
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+        <div class="status-bar">
+          <span class="status-dot"></span>
+          <span>Currently working on SpyNet</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote">
+      <span class="quote-mark">"</span>
+      <p class="quote-text">Turning complex problems into secure and scalable solutions.</p>
+      <span class="quote-mark-end">"</span>
+      <p class="quote-author">– Suraj Singh</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="section-header">
+        <h2 class="section-title"><span class="hash-primary">#</span>projects</h2>
+        <a href="#" class="view-all">View all ~~&gt;</a>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/images/project-elite-cloak.png" alt="Elite Cloak Room">
+          </div>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>SQL</span>
+          </div>
+          <div class="project-info">
+            <h3>Elite Cloak Room</h3>
+            <p>Smart cloakroom reservation system</p>
+            <div class="project-buttons">
+              <a href="#" class="btn btn-primary btn-sm">Live &lt;~&gt;</a>
+              <a href="#" class="btn btn-secondary btn-sm">GitHub &gt;=</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/images/project-agro-vision.png" alt="Agro-Vision">
+          </div>
+          <div class="project-tags">
+            <span>Python</span><span>Flask</span><span>SQL</span><span>TensorFlow</span><span>OpenCV</span>
+          </div>
+          <div class="project-info">
+            <h3>Agro-Vision</h3>
+            <p>AI-driven crop disease detection & farm advisory</p>
+            <div class="project-buttons">
+              <a href="#" class="btn btn-primary btn-sm">Live &lt;~&gt;</a>
+              <a href="#" class="btn btn-secondary btn-sm">GitHub &gt;=</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image">
+            <img src="/images/project-spynet.png" alt="SpyNet">
+          </div>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>APIs</span>
+          </div>
+          <div class="project-info">
+            <h3>SpyNet</h3>
+            <p>Cybersecurity monitoring & threat analysis tool</p>
+            <div class="project-buttons">
+              <a href="#" class="btn btn-primary btn-sm">Live &lt;~&gt;</a>
+              <a href="#" class="btn btn-secondary btn-sm">GitHub &gt;=</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2 class="section-title"><span class="hash-primary">#</span>skills</h2>
+      <div class="skills-content">
+        <div class="skills-grid">
+          <div class="skill-block">
+            <h4>Languages</h4>
+            <hr>
+            <div class="skill-items">
+              <span>Java</span><span>JavaScript</span>
+              <span>C++</span><span>Python</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h4>Databases</h4>
+            <hr>
+            <div class="skill-items">
+              <span>MongoDB</span><span>MySQL</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h4>Security & APIs</h4>
+            <hr>
+            <div class="skill-items">
+              <span>Application Security</span><span>Threat Analysis</span><span>REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h4>Frontend & Backend</h4>
+            <hr>
+            <div class="skill-items">
+              <span>React.js</span><span>Node.js</span><span>Express.js</span><span>Flask</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h4>Tools</h4>
+            <hr>
+            <div class="skill-items">
+              <span>Git & GitHub</span><span>VS Code</span><span>Linux</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-decoration">
+          <div class="dots-decoration"></div>
+          <div class="logo-decoration">
+            <svg width="113" height="113" viewBox="0 0 113 113" fill="none" stroke="#C778DD" stroke-width="1">
+              <rect x="56.5" y="0" width="56.5" height="84.75"/>
+              <rect x="0" y="28.25" width="56.5" height="84.75"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-me" class="about">
+      <h2 class="section-title"><span class="hash-primary">#</span>about-me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hello, I'm Suraj Singh.</p>
+          <p>I'm a full-stack developer who enjoys building secure, scalable, and practical web applications. I work across the stack — from clean, intuitive interfaces to reliable backend systems.</p>
+          <p>With experience in Java, Python, React, and Flask, I focus on writing clean code, solving real-world problems, and continuously improving as a software engineer.</p>
+          <a href="#" class="btn btn-primary btn-outline">Read more -&gt;</a>
+        </div>
+        <div class="about-image">
+          <img src="/images/hero-image.png" alt="Suraj Singh">
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacts" class="contact">
+      <h2 class="section-title"><span class="hash-primary">#</span>contacts</h2>
+      <div class="contact-content">
+        <p class="contact-intro">I'm open to new opportunities, collaborations, and conversations around software development and cybersecurity. Whether you want to build something together or simply connect, feel free to reach out — I'd be glad to talk.</p>
+        <div class="contact-box">
+          <h4>Message me here</h4>
+          <div class="contact-links">
+            <a href="#" class="contact-link">
+              <svg class="icon-32" viewBox="0 0 32 32" fill="currentColor"><path d="M16 0C7.164 0 0 7.164 0 16c0 8.836 7.164 16 16 16s16-7.164 16-16C32 7.164 24.836 0 16 0z"/></svg>
+              <span>_suraj____singh__</span>
+            </a>
+            <a href="mailto:surajsingh2002india@gmail.com" class="contact-link">
+              <svg class="icon-32" viewBox="0 0 32 32" fill="currentColor"><path d="M16 0C7.164 0 0 7.164 0 16c0 8.836 7.164 16 16 16s16-7.164 16-16C32 7.164 24.836 0 16 0z"/></svg>
+              <span>surajsingh2002india@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-line"></div>
+      <div class="footer-content">
+        <div class="footer-info">
+          <div class="footer-brand">
+            <svg class="logo-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="4" height="4" fill="#FFFFFF"/><rect x="4" width="4" height="4" fill="#FFFFFF"/><rect x="8" width="4" height="4" fill="#FFFFFF"/><rect x="12" width="4" height="4" fill="#FFFFFF"/>
+              <rect x="0" y="4" width="4" height="4" fill="#FFFFFF"/>
+              <rect x="0" y="8" width="4" height="4" fill="#FFFFFF"/><rect x="4" y="8" width="4" height="4" fill="#FFFFFF"/><rect x="8" y="8" width="4" height="4" fill="#FFFFFF"/>
+              <rect x="12" y="12" width="4" height="4" fill="#FFFFFF"/><rect x="0" y="12" width="4" height="4" fill="#FFFFFF"/>
+            </svg>
+            <span>Suraj Singh</span>
+          </div>
+          <span class="footer-site">surajsingh.in</span>
+          <p>Full Stack Developer with Cybersecurity Focus</p>
+        </div>
+        <div class="footer-media">
+          <h4>Media</h4>
+          <img src="/images/social-icons.svg" alt="Social links">
+        </div>
+      </div>
+      <p class="footer-copyright">© 2025 Suraj Singh. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
